@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <table width="800" border="1">
+      <tr>
+        <td width="400" height="100" align="center" bgcolor="#ffff99">真皮皮包</td>
+        <td width="400" height="100" align="center" bgcolor="#ffff99">真皮短夾</td>
+      </tr>
+      <tr>
+        <td width="400" height="150" align="center" bgcolor="#ffff99"><img src="../images/0403.jpg" width="250" height="150" /></td>
+        <td width="400" height="150" align="center" bgcolor="#ffff99"><img src="../images/0404.jpg" width="216" height="150" /></td>
+      </tr>
+      <tr>
+        <td width="400" height="100" align="center" bgcolor="#ffff99"><p>
+          <label>
+            <input name="order1" type="radio" id="RadioGroup1_0" value="購買" checked="checked" />
+            購買</label>
+          <label>
+            <input type="radio" name="order1" value="不購買" id="RadioGroup1_1" />
+            不購買</label>
+          <label>
+            <input type="radio" name="order1" value="考慮" id="RadioGroup1_2" />
+            考慮</label>
+          <br />
+        </p></td>
+        <td width="400" height="100" align="center" bgcolor="#ffff99"><label>
+          <input name="order2" type="radio" id="RadioGroup1_3" value="購買" />
+          購買</label>
+          <label>
+            <input type="radio" name="order2" value="不購買" id="RadioGroup1_4" />
+            不購買</label>
+          <label>
+            <input name="order2" type="radio" id="RadioGroup1_5" value="考慮" checked="checked" />
+        考慮</label></td>
+      </tr>
+    </table>
+    <p> 
+      <input type="reset" name="重置" id="重置" value="重置" /> 
+         <input name="button2" type="submit" id="button2" onclick="confirm('流行皮件選購確認:\n\n●真皮皮包:'+form1.order1.value+'\n●真皮短夾:'+form1.order2.value)" value="送出" />
+    </p>
+  </div>
+</form>
+</body>
+</html>
